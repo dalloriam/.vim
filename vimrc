@@ -12,6 +12,7 @@ filetype plugin indent on     " required
 "
 set noerrorbells                " No beeps
 set number                      " Show line numbers
+set relativenumber
 set backspace=indent,eol,start  " Makes backspace key more powerful.
 set showcmd                     " Show me what I'm typing
 set showmode                    " Show current mode.
@@ -304,13 +305,6 @@ function! XTermPasteBegin()
   set paste
   return ""
 endfunction
-
-" set 80 character line limit
-if exists('+colorcolumn')
-  set colorcolumn=80
-else
-  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
-endif
 
 " ----------------------------------------- "
 " File Type settings 			    		"
