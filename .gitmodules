@@ -115,3 +115,6 @@
 [submodule "bundle/deoplete-jedi"]
 	path = bundle/deoplete-jedi
 	url = https://github.com/zchee/deoplete-jedi
+[submodule "bundle/vim-cpp-enhanced-highlight"]
+	path = bundle/vim-cpp-enhanced-highlight
+	url = https://github.com/octol/vim-cpp-enhanced-highlight
