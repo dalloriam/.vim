@@ -118,3 +118,12 @@
 [submodule "bundle/vim-cpp-enhanced-highlight"]
 	path = bundle/vim-cpp-enhanced-highlight
 	url = https://github.com/octol/vim-cpp-enhanced-highlight
+[submodule "bundle/deoplete-clang2"]
+	path = bundle/deoplete-clang2
+	url = git@github.com:tweekmonster/deoplete-clang2.git
+[submodule "bundle/deoplete-clang"]
+	path = bundle/deoplete-clang
+	url = git@github.com:deoplete-plugins/deoplete-clang.git
+[submodule "bundle/onedark.vim"]
+	path = bundle/onedark.vim
+	url = git@github.com:joshdick/onedark.vim.git
